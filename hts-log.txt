@@ -1,0 +1,35 @@
+HTTrack3.49-5 launched on Mon, 23 Jun 2025 23:10:38 at https://thehaleef.com +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/*
+(webhttrack -q -%i -w https://thehaleef.com -O "/home/ali/websites/haleef" -n -%P -N0 -s2 -p7 -D -a -K0 -c4 -%k -A100000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+23:13:31	Warning: 	Warning: store text/html without scan: /home/ali/websites/haleef/gmpg.org/xfn/.html
+23:13:31	Warning: 	Warning: store text/html without scan: /home/ali/websites/haleef/gmpg.org/xfn/intro.html
+23:13:31	Warning: 	Warning: store text/html without scan: /home/ali/websites/haleef/gmpg.org/xfn/faq.html
+23:13:31	Warning: 	Moved Permanently for https://thehaleef.com/?p=250
+23:13:31	Warning: 	File has moved from https://thehaleef.com/?p=250 to https://thehaleef.com/contact-us/
+23:13:31	Warning: 	HTML file (263203 bytes) retransferred due to lack of cache: https://thehaleef.com/wp-json/
+23:13:35	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://thehaleef.com/wp-content/uploads/2025/05/Haleef-Posters-ss96.gif
+23:13:46	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://cdn.lordicon.com/lordicon.js
+23:13:59	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://thehaleef.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.woff2
+23:14:01	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://thehaleef.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.woff
+23:14:01	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://thehaleef.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.ttf
+23:15:06	Error: 	"Bad Request" (400) at link https://thehaleef.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fthehaleef.com%2F (from https://thehaleef.com/)
+23:15:06	Warning: 	HTML file (82962 bytes) retransferred due to lack of cache: https://thehaleef.com/contact-us/
+23:15:19	Warning: 	Warning: store text/css without scan: /home/ali/websites/haleef/gmpg.org/xfn/default.css
+23:15:19	Error: 	"Not Found" (404) at link https://thehaleef.com/Trident/ (from https://thehaleef.com/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=3.29.2)
+23:15:19	Error: 	"Not Found" (404) at link https://thehaleef.com/OPR/ (from https://thehaleef.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.29.2)
+23:15:19	Error: 	"Not Found" (404) at link https://thehaleef.com/l (from https://thehaleef.com/wp-content/plugins/elementor/assets/lib/swiper/v8/swiper.min.js?ver=8.4.5)
+23:15:19	Error: 	"Not Found" (404) at link https://thehaleef.com/e (from https://thehaleef.com/wp-content/plugins/elementor/assets/lib/swiper/v8/swiper.min.js?ver=8.4.5)
+23:15:19	Error: 	"Not Found" (404) at link https://thehaleef.com/t.params.url (from https://thehaleef.com/wp-content/plugins/elementor/assets/lib/swiper/v8/swiper.min.js?ver=8.4.5)
+23:15:19	Error: 	"Not Found" (404) at link https://thehaleef.com/giItT1WQy@!-/ (from https://thehaleef.com/wp-content/plugins/elementor-pro/assets/lib/lottie/lottie.min.js?ver=5.6.6)
+23:15:19	Error: 	"Not Found" (404) at link https://thehaleef.com/images/ (from https://thehaleef.com/wp-content/plugins/elementor-pro/assets/lib/lottie/lottie.min.js?ver=5.6.6)
+23:15:19	Error: 	"Not Found" (404) at link https://thehaleef.com/GET (from https://thehaleef.com/wp-content/plugins/elementor-pro/assets/lib/lottie/lottie.min.js?ver=5.6.6)
+23:15:19	Error: 	"Not Found" (404) at link https://thehaleef.com/window.location.href (from https://thehaleef.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.29.2)
+23:15:19	Error: 	"Not Found" (404) at link https://thehaleef.com/svgFlagPath (from https://thehaleef.com/wp-content/plugins/country-code-field-for-elementor-form/assets/js/country-code-script.min.js?ver=1.3.12)
+
+HTTrack Website Copier/3.49-5 mirror complete in 4 minutes 41 seconds : 198 links scanned, 193 files written (182034276 bytes overall) [180286280 bytes received at 641588 bytes/sec], 7883510 bytes transferred using HTTP compression in 155 files, ratio 47%, 4.7 requests per connection
+(11 errors, 13 warnings, 0 messages)
