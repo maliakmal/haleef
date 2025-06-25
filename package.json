@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "nodemailer": "^7.0.3"
+  },
+  "name": "old.haleef.local",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maliakmal/haleef.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/maliakmal/haleef/issues"
+  },
+  "homepage": "https://github.com/maliakmal/haleef#readme"
+}
